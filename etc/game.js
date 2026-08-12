@@ -1,9 +1,9 @@
-import { Player } from "../entities/player.js";
-import { Enemy } from "../entities/enemy.js";
-import { Bullet } from "../weapons/bullet.js";
+import { Player } from "./entities/player.js";
+import { Enemy } from "./entities/enemy.js";
+import { Bullet } from "./weapons/bullet.js";
 import { Map } from "./mapa.js";
-import { Camera } from "../core/camera.js"
-import { Wall } from "../entities/wall.js";
+import { Camera } from "./core/camera.js"
+import { Wall } from "./entities/wall.js";
 
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
@@ -13,7 +13,7 @@ const bullets = [];
 
 const camera = new Camera (canvas.width, canvas.height);
 
-const map = new Map("../assets/Mapa.png")
+const map = new Map("./assets/Mapa.png")
 
 const MAP_SCALE = 2.5;
 
