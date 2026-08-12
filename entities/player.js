@@ -1,5 +1,5 @@
-import { Sprite } from "./core/sprite.js";
-import { Animation } from "./core/animation.js";
+import { Sprite } from "../core/sprite.js";
+import { Animation } from "../core/animation.js";
 
 export class Player {
     constructor(x, y) {
