@@ -1,5 +1,5 @@
-import { Sprite } from "../core/sprite.js";
-import { Animation } from "../core/animation.js";
+import { Sprite } from "./core/sprite.js";
+import { Animation } from "./core/animation.js";
 
 export class Player {
     constructor(x, y) {
@@ -13,7 +13,7 @@ export class Player {
 
         this.angle = 0;
 
-        this.spriteFrente = new Sprite("../assets/Spritesheet-Player.png", 64, 64);
+        this.spriteFrente = new Sprite("./assets/Spritesheet-Player.png", 64, 64);
 
         this.walkAnimation = new Animation(
             this.spriteFrente,
