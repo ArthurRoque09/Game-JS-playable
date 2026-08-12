@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projeto Hotline Miami</title>
+
+<link rel="stylesheet" href="../etc/style.css">
+</head>
+
+<body>
+<main class="game-container">
+
+    <h1 class="game-title">
+        HOTLINE PROJECT
+    </h1>
+
+    <div class="game-wrapper">
+
+        <canvas id="gameCanvas" width="1200" height="800">
+            Seu navegador não suporta Canvas. Atualize!
+        </canvas>
+
+        <div class="controls-bar">
+
+            <div class="control">
+                <span class="key">WASD</span>
+                <span class="control-label">MOVIMENTO</span>
+            </div>
+
+            <div class="control">
+                <span class="key">LMB</span>
+                <span class="control-label">ATIRAR</span>
+            </div>
+
+            <div class="control">
+                <span class="key">RMB</span>
+                <span class="control-label">MIRA</span>
+            </div>
+
+            <div class="control">
+                <span class="key">ESC</span>
+                <span class="control-label">PAUSAR</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+<script type="module" src="game.js"></script>
+</body>
+
+</html>
