@@ -1,9 +1,9 @@
-import { Player } from "./entities/player.js";
-import { Enemy } from "./entities/enemy.js";
-import { Bullet } from "./weapons/bullet.js";
+import { Player } from "../entities/player.js";
+import { Enemy } from "../entities/enemy.js";
+import { Bullet } from "../weapons/bullet.js";
 import { Map } from "./mapa.js";
-import { Camera } from "./core/camera.js"
-import { Wall } from "./entities/wall.js";
+import { Camera } from "../core/camera.js"
+import { Wall } from "../entities/wall.js";
 
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
