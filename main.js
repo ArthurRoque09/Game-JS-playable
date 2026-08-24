@@ -1,6 +1,6 @@
-import { MenuScene } from "./scenes/menuScene.js";
-import { GameScene } from "./scenes/gameScene.js";
-import { TutorialScene } from "./scenes/tutorialScene.js";
+import { MenuScene } from "./scenes/menuscene.js";
+import { GameScene } from "./scenes/gamescene.js";
+import { TutorialScene } from "./scenes/tutorialscene.js";
 
 const config = {
 
