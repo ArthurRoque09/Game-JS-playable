@@ -1,4 +1,4 @@
-import { Weapon } from "../weapons/Weapon.js";
+import { Weapon } from "../weapons/weapon.js";
 import { WEAPONS } from "../weapons/weaponsData.js";
 
 
