@@ -1,12 +1,12 @@
 import { Enemy } from "../entities/enemy.js";
 import { Player } from "../entities/player.js";
 
-import { GroundWeapon } from "../weapons/groundWeapon.js";
-import { WEAPONS } from "../weapons/weaponsData.js";
+import { GroundWeapon } from "../weapons/groundweapon.js";
+import { WEAPONS } from "../weapons/weaponsdata.js";
 
-import { MAP_WALLS, SPAWN_SOFA } from "../world/mapWalls.js";
+import { MAP_WALLS, SPAWN_SOFA } from "../world/mapwalls.js";
 
-import { NavigationGrid } from "../systems/navigationGrid.js";
+import { NavigationGrid } from "../systems/navigationgrid.js";
 import { Pathfinder } from "../systems/pathfinder.js";
 
 // =========================
