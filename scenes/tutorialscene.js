@@ -1,7 +1,7 @@
-import { Player } from "../entities/Player.js";
-import { Enemy } from "../entities/Enemy.js";
+import { Player } from "../entities/player.js";
+import { Enemy } from "../entities/enemy.js";
 
-import { GroundWeapon } from "../weapons/GroundWeapon.js";
+import { GroundWeapon } from "../weapons/groundWeapon.js";
 import { WEAPONS } from "../weapons/weaponsData.js";
 
 
