@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hotline Project</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <button id="fullscreen-button" type="button" aria-label="Alternar tela cheia">
+        ⛶
+    </button>
+
+    <div id="volume-control">
+
+        <button id="mute-button" type="button" aria-label="Ativar ou desativar som">
+            🔊
+        </button>
+
+        <input id="volume-slider" type="range" min="0" max="100" value="100">
+
+        <span id="volume-value">
+            100%
+        </span>
+
+    </div>
+
+    <!-- Phaser via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js">
+    </script>
+
+    <script type="module" src="./main.js">
+    </script>
+
+</body>
+
+</html>

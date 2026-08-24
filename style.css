@@ -1,0 +1,114 @@
+#fullscreen-button {
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    width: 48px;
+    height: 48px;
+
+    z-index: 9999;
+
+    border: none;
+    border-radius: 10px;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    color: white;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.15s ease,
+        background 0.15s ease;
+}
+
+
+#fullscreen-button:hover {
+    transform: scale(1.12);
+
+    background:
+        rgba(0, 180, 255, 0.75);
+}
+
+
+#fullscreen-button:active {
+    transform: scale(0.92);
+}
+
+body {
+    margin: 0;
+    background: #08080c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+
+canvas:fullscreen {
+    width: 100vw !important;
+    height: 100vh !important;
+
+    object-fit: contain;
+
+    background: black;
+}
+
+#volume-control {
+    position: fixed;
+
+    top: 20px;
+    left: 20px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 8px 12px;
+
+    z-index: 9999;
+
+    background: rgba(0, 0, 0, 0.55);
+
+    border-radius: 10px;
+
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+
+#mute-button {
+    border: none;
+
+    background: transparent;
+
+    font-size: 22px;
+
+    cursor: pointer;
+}
+
+
+#volume-slider {
+    width: 130px;
+
+    cursor: pointer;
+}
+
+
+#volume-value {
+    min-width: 42px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
