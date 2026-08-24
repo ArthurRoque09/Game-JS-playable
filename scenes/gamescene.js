@@ -1,13 +1,13 @@
-import { Enemy } from "../entities/Enemy.js";
-import { Player } from "../entities/Player.js";
+import { Enemy } from "../entities/enemy.js";
+import { Player } from "../entities/player.js";
 
-import { GroundWeapon } from "../weapons/GroundWeapon.js";
+import { GroundWeapon } from "../weapons/groundWeapon.js";
 import { WEAPONS } from "../weapons/weaponsData.js";
 
-import { MAP_WALLS, SPAWN_SOFA } from "../world/MapWalls.js";
+import { MAP_WALLS, SPAWN_SOFA } from "../world/mapWalls.js";
 
-import { NavigationGrid } from "../systems/NavigationGrid.js";
-import { Pathfinder } from "../systems/Pathfinder.js";
+import { NavigationGrid } from "../systems/navigationGrid.js";
+import { Pathfinder } from "../systems/pathfinder.js";
 
 // =========================
 // INIMIGOS - BUILDING 3
