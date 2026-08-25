@@ -1,8 +1,8 @@
 import { Player } from "../entities/player.js";
 import { Enemy } from "../entities/enemy.js";
 
-import { GroundWeapon } from "../weapons/groundWeapon.js";
-import { WEAPONS } from "../weapons/weaponsData.js";
+import { GroundWeapon } from "../weapons/groundweapon.js";
+import { WEAPONS } from "../weapons/weaponsdata.js";
 
 
 export class TutorialScene extends Phaser.Scene {
