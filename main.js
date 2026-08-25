@@ -11,6 +11,10 @@ const config = {
 
     backgroundColor: "#000000",
 
+    audio: {
+        disableWebAudio: true
+    },
+
 
     // =========================
     // FÍSICA
