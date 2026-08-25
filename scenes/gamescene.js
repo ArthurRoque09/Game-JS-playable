@@ -158,7 +158,7 @@ export class GameScene extends Phaser.Scene {
 
         this.load.audio(
             "deathSound",
-            "./assets/sounds/Death.mp3"
+            "./assets/sounds/death.mp3"
         );
 
         this.load.audio(
