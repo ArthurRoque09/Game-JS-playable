@@ -1,5 +1,5 @@
 import { Weapon } from "../weapons/weapon.js";
-import { WEAPONS } from "../weapons/weaponsData.js";
+import { WEAPONS } from "../weapons/weaponsdata.js";
 
 
 export class Player {
