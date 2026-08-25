@@ -48,6 +48,8 @@ const game =
         config
     );
 
+window.game = game;
+
 // =========================
 // CONTROLE DE VOLUME
 // =========================
