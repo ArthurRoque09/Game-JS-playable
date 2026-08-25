@@ -1,5 +1,5 @@
 import { Bullet } from "./bullet.js";
-import { ShellCasing } from "./shellCasing.js";
+import { ShellCasing } from "./shellcasing.js";
 
 
 export class Weapon {
